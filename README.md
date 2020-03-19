@@ -18,12 +18,14 @@ Library import
 We import all the required Python libraries
  
 ### Data manipulation
-import pandas as pd
-import numpy as np
+`import pandas as pd`
+
+`import numpy as np`
 
 ### Visualizations
-import matplotlib.pyplot as plt
-import seaborn as sns
+`import matplotlib.pyplot as plt`
+
+`import seaborn as sns`
 
 ### Data import
 For now the data is gathered by manually updating the CSV file daily using the ISDH website
