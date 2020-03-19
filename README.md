@@ -1,89 +1,31 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "<h1> Indiana Covid19 </h1>\n",
-    "\n",
-    "![covidLogo](covid.png)\n",
-    "\n",
-    "\n",
-    "### Purpose\n",
-    "To visualize the spread of covid19 for Indiana using different parameters such as dates, counties, age, sex (dependent on the data)\n",
-    "\n",
-    "\n",
-    "Notable TODOs:\n",
-    "- Scrape ISDH website instead of manually updating CSV\n",
-    "- Find age,and sex data\n",
-    "\n",
-    "\n",
-    "### Results\n",
-    "TBD"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# Setup\n",
-    "\n",
-    "## Library import\n",
-    "We import all the required Python libraries"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Data manipulation\n",
-    "import pandas as pd\n",
-    "import numpy as np\n",
-    "\n",
-    "# Visualizations\n",
-    "import matplotlib.pyplot as plt\n",
-    "import seaborn as sns"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "\n",
-    "# Data import\n",
-    "For now the data is gathered by manually updating the CSV file daily using the ISDH website"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# References\n",
-    "1. Indiana State Department of Health(https://www.in.gov/coronavirus/)"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.2"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 2
-}
+ <h1> Indiana Covid19 </h1>
+ ![covidLogo](covid.png)
+    
+### Purpose
+To visualize the spread of covid19 for Indiana using different parameters such as dates, counties, age, sex (dependent on the data
+    
+Notable TODOs:
+- Scrape ISDH website instead of manually updating CSV
+- Find age,and sex data
+
+### Results
+TBD
+
+
+## Setup
+Library import
+We import all the required Python libraries
+ 
+### Data manipulation
+import pandas as pd
+import numpy as np
+
+### Visualizations
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+### Data import
+For now the data is gathered by manually updating the CSV file daily using the ISDH website
+ 
+#### References
+1. Indiana State Department of Health(https://www.in.gov/coronavirus/)
