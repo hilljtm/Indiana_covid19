@@ -1,5 +1,6 @@
- <h1> Indiana Covid19 </h1>
- ![covidLogo](covid.png)
+<h1> Indiana Covid19 </h1>
+
+![covid](covid.png)
     
 ### Purpose
 To visualize the spread of covid19 for Indiana using different parameters such as dates, counties, age, sex (dependent on the data
@@ -17,12 +18,14 @@ Library import
 We import all the required Python libraries
  
 ### Data manipulation
-import pandas as pd
-import numpy as np
+`import pandas as pd`
+
+`import numpy as np`
 
 ### Visualizations
-import matplotlib.pyplot as plt
-import seaborn as sns
+`import matplotlib.pyplot as plt`
+
+`import seaborn as sns`
 
 ### Data import
 For now the data is gathered by manually updating the CSV file daily using the ISDH website
