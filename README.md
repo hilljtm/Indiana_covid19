@@ -1,5 +1,6 @@
- <h1> Indiana Covid19 </h1>
- ![covidLogo](covid.png)
+<h1> Indiana Covid19 </h1>
+
+![covid](covid.png)
     
 ### Purpose
 To visualize the spread of covid19 for Indiana using different parameters such as dates, counties, age, sex (dependent on the data
